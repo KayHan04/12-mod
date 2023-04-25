@@ -1,0 +1,9 @@
+money = int(input("Вводите сумму"))
+
+TKB = int((per_cent['ТКБ'])*(money*0.1))
+SKB = int((per_cent['СКБ'])*(money*0.1))
+VTB = int((per_cent['ВТБ'])*(money*0.1))
+SBER = int((per_cent['СБЕР'])*(money*0.1))
+
+deposit = [TKB, SKB, VTB, SBER]
+print("Накопленные средства", deposit)
